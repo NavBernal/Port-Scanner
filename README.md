@@ -9,11 +9,6 @@ This Python-based project is a simple multi-threaded port scanner that scans a r
 - **Customizable IP target:** Allows the user to specify the target IP address to scan.
 - **Scans ports 1-1023:** Default port range is set to scan ports 1 through 1023.
 
-## Requirements
-
-- Python 3.x
-- No external libraries are required (uses built-in `socket`, `threading`, and `queue` modules).
-
 ## How It Works
 
 1. **Target IP input:** The user is prompted to input the IP address of the system they want to scan.
