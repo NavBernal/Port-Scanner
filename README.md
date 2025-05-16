@@ -2,13 +2,6 @@
 
 This Python-based project is a simple multi-threaded port scanner that scans a range of ports (1-1023) on a target IP address to check if they are open. The project uses threading to speed up the scanning process by concurrently checking multiple ports.
 
-## Features
-
-- **Multithreaded scanning:** Uses multiple threads to scan ports concurrently, improving scan speed.
-- **Open port detection:** Identifies open ports on the target system by attempting to establish a TCP connection.
-- **Customizable IP target:** Allows the user to specify the target IP address to scan.
-- **Scans ports 1-1023:** Default port range is set to scan ports 1 through 1023.
-
 ## How It Works
 
 1. **Target IP input:** The user is prompted to input the IP address of the system they want to scan.
