@@ -2,8 +2,8 @@ import socket
 import threading
 from queue import Queue
 
-# Target IP address for the port scan (change this to the desired target)
-target = '192.168.7.1'
+# Enter a target IP address for the port scan
+target = input('Enter a target IP to be scanned: ')
 
 # Queue to hold the ports that need to be scanned
 queue = Queue()
